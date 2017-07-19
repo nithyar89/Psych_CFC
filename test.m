@@ -16,6 +16,8 @@ loadenv;
 else 
 if exist('/home/nicola/Desktop/Dropbox/','dir'); %LOCAL
     db='/home/nicola/Desktop/Dropbox/';
+elseif
+	test=1
 %     basedir='/home/nicola/Desktop/.../';
 elseif exist('/home/polizzotton/Dropbox/','dir') %MEGATRON
     db='/home/polizzotton/Dropbox/';   
